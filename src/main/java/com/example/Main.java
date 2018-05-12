@@ -10,6 +10,11 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String args[]) {
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("headless");
+//        options.addArguments("window-size=1200x600");
+//        WebDriver driver = new ChromeDriver(options);
+
         WebDriver driver = new ChromeDriver();
 
         long start = System.currentTimeMillis();
